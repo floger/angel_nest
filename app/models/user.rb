@@ -117,7 +117,7 @@ class User < ActiveRecord::Base
       :is_private  => true,
       :target_id   => target_user.id,
       :target_type => 'User'
-    }.merge(extras)) && reload
+    }.merge(extras), :as => :internal) && reload
   end
 
   def reply_private_message(topic, content, extras = {})
@@ -127,7 +127,7 @@ class User < ActiveRecord::Base
       :target_id   => topic.user.id,
       :target_type => 'User',
       :topic_id    => topic.id
-    }.merge(extras)) && reload
+    }.merge(extras), :as => :internal) && reload
   end
 
   def add_micro_post(content)

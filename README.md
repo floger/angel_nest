@@ -1,4 +1,4 @@
-# Angel Nest
+# Angel Nest [![Build Status](https://secure.travis-ci.org/fredwu/angel_nest.png?branch=master)](http://travis-ci.org/fredwu/angel_nest) [![Dependency Status](https://gemnasium.com/fredwu/angel_nest.png)](https://gemnasium.com/fredwu/angel_nest) [![endorse](http://api.coderwall.com/fredwu/endorsecount.png)](http://coderwall.com/fredwu)
 
 - Hacker News comments: http://news.ycombinator.com/item?id=2891907
 - Reddit comments: http://www.reddit.com/r/programming/comments/jkr8r/developer_opensources_200_hr_project_after_client/
@@ -31,8 +31,8 @@ Well duh. I have my day job as well as my own adventure to worry about on top of
 
 ### Stack
 
-- ruby 1.9.2
-- rails 3.1
+- ruby 1.9
+- rails 3.2
 
 ### Setup Instructions
 
@@ -42,7 +42,6 @@ Well duh. I have my day job as well as my own adventure to worry about on top of
 ### Run Test Suites
 
 - `rake spec` for integration and unit tests
-- `rake cucumber` for acceptance tests
 
 ### Development Notes
 
@@ -65,3 +64,7 @@ In order to run the system (for demo and development purposes), you may follow t
 ## License
 
 Dual licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) and [GPL](http://www.gnu.org/licenses/gpl.html) licenses.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/fredwu/angel_nest/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
